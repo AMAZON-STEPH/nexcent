@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #F5F7FA;
+  height: 100vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  padding:30px 60px;
+  /* position: fixed; */
+  /* position: fixed; */
+  width: 100%;
+  margin-top: 1em;
+}
+ .nav-bar{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  height: 3em;
+  justify-content: center;
+} 
+
+.site-name{
+  display: flex;
+  align-items: center;
+}
+.nav-link{
+  display: inline;
+  font-family: arial;
+  font-size: 15px;
+  text-decoration: dashed;
+  justify-content: space-between;
+  color: black;
+  cursor: pointer;
+  padding:1em 1em;
+  gap: 4px;
+  
+}
+
+.login-signup{
+  display: flex;
+  border: none;
+  
+  
+}
+.login-button{
+  color: green;
+  border: none;
+  border-radius: 14px;
+  font-family: arial;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.14s;
+  padding:4px 14px ;
+  background-color: transparent;
+  margin-right: 18px;
+}
+.login-button:hover{
+ opacity: 0.5;
+}
+.login-button:active{
+  background-color: green;
+}
+.sign-up-button{
+  padding: 9px 13px;
+  color: white;
+  background-color:green; 
+  border: none;
+  border-radius: 3px;
+  font-family: arial;
+  font-size: 1em;
+  cursor: pointer;
+  
+}
+.sign-up-button:hover{
+  opacity: 0.5;
+}
+.sign-up-button:active{
+  opacity: inherit;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+   padding: 30px 60px; 
+  align-items: center;
+  
+}
+.web-description>h2{
+  font-size: 62px;
+
+}
+.web-description>h2>span{
+  color: green;
+}
+.web-description>p{
+  padding-top: 1em;
+  color: grey;
+  font-family: arial;
+  font-size: 13px;
+}
+.register-button>button{
+  color: white;
+  background-color:green;
+  border: none;
+  padding: 11px 27px;
+  border-radius:8px ;
+  
+}
+.register-button{
+  margin-top: 1em;
+}
+
+.web-img{
+  width: 311px;
+}
+
+.clients-icon{
+  padding-bottom: 5em;
+}
+.clients-icon>div>h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 6px;
+  font-family: arial;
+  font-size: 20px;
+
+}
+.clients-icon>div>p{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: arial;
+  font-size: 15px;
+  color: grey;
+}
+
+
+.icon-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 6em;
+  padding-top:2em ;
+}
+.manage>h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: arial;
+}
+.manage>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-family: arial;
+}
+.section-description{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 60px; 
+  font-family: arial;
+  font-size: 17px;
+  text-align: center;
+  font-family: arial;
+
+}
+
+.section-description>div>h2{
+  color: rgb(89, 87, 87);
+  align-items: center;
+}
+.section-description>div>p{
+  color: rgb(158, 156, 156);
+  align-items: center;
+}
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8em;
+  padding: 30px 60px;
+  
+}
+
+.img{
+  /* height: 18em; */
+  width:323px ;
+}
+.section2-description>p{
+  color: rgb(61, 60, 60);
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+.section2-description>h2{
+  font-family: arial;
+  font-size: 30px;
+  color: rgb(49, 48, 48);
+}
+.section2-description>button{
+  color:white;
+  background-color: green;
+  padding: 11px 27px;
+  border: none;
+  border-radius: 5px;
+}
+
+.section3{
+  display: flex;
+  padding: 30px 60px;
+  background-color: #F5F7FA;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3em;
+}
+.section3-description>h2{
+  font-family: Arial;
+  font-size: 37px;
+}
+.section3-description>h2>span{
+  color: green;
+}
+.section3-description>p{
+  color:rgb(104, 100, 100);
+}
+.icon-status{
+  display: flex;
+  color:rgb(78, 68, 68);
+  font-family: arial;
+}
+.section3-icon-status{ 
+  display: grid;
+  grid-template-columns: 100px 100px; 
+  row-gap: 2em;
+}
+
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  padding-left: -4em;
+  height: 2em;
+  width: 2em; 
+  position: relative;
+  left: 4em;
+}
+.description{
+  font-size: 14px;
+}
+
+.footer-content{
+  display: flex;
+  gap:3em;
+  padding: 30px 60px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-img{
+  width: 331px;
+}
+.footer-description{
+  /* color:rgb(78, 68, 68); */
+  font-family: arial;
+}
+.footer-description>h2{
+  color:rgb(55, 54, 54);
+  font-size:32px
+}
+.footer-description>p{
+  color:rgb(104, 100, 100);
+  font-size:13px ;
+}
+.section5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 60px;
+  background-color: #F5F7FA ;
+  gap: 3em;
+  border: solid red;
+}
+.section5-img{
+  width:311px ;
+}
+.section5-description{
+  font-family: arial;
+}
+.section5-description>div>p{
+   color:rgb(104, 100, 100);
+  font-size:13px ;
+}
+.section5-description>div>h3{
+  color: green;
+  padding-top: 1em;
+  padding-bottom:1em ;
+}
+.section5-logo{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: inherit;
+  gap:2em;
+  padding-top: 2em;
+}
+.section5-logo>img{
+  width: 29px;
+  height: 29px;
+}
+.section5-logo>h5{
+  padding-top: 1em;
+  color: green;
+
+}
+
+@media(max-width: 750px) {
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3em;
+    width: 10em;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-bar a {
+    color: #ffff;
+  }
+
+  .login-signup{
+    display: flex;
+    height: 2em;
+    gap: .2em;
+
+  }
+
+  .login-button, .sign-up-button{
+    border-radius: 4px;
+  }
+  
+}
